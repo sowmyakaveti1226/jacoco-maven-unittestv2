@@ -8,7 +8,7 @@ public class BankAccount {
             this.balance = balance;
           }
 
-          public double debit(double price) {
+          public double debit(double dev) {
             if (balance < amount) {
               amount = balance;
             }
